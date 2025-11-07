@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Leaf, Recycle, Users, ArrowLeft } from "lucide-react"
 
-export default function AboutPage() {
+export default function AboutPage() { // Página "Sobre nosotros"  
   return (
     <div className="flex min-h-screen flex-col items-center">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

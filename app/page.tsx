@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { CheckCircle, Recycle, Building2, Users, BarChart3, MapPin, ArrowRight, Leaf } from "lucide-react"
 import { ContactForm } from "@/components/contact-form"
 
-export default function LandingPage() {
+export default function LandingPage() { // Página principal de la landing page
   return (
     <div className="flex min-h-screen flex-col items-center">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

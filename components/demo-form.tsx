@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { CheckCircle } from "lucide-react"
 
-export function DemoForm() {
+export function DemoForm() { // Formulario de solicitud de demostración
   const [submitted, setSubmitted] = useState(false)
   const [formData, setFormData] = useState({
     firstName: "",
