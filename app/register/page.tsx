@@ -60,7 +60,6 @@ export default function RegisterPage() {
               <option value="">Selecciona una opción</option>
               <option value="citizen">Ciudadano</option>
               <option value="municipality">Municipalidad</option>
-              <option value="company">Empresa</option>
             </select>
           </div>
           <Button className="w-full bg-[#2ca05a] hover:bg-[#005c2f]">Registrarse</Button>
@@ -68,7 +67,7 @@ export default function RegisterPage() {
         <CardFooter className="flex flex-col space-y-4">
           <div className="text-center text-sm">
             ¿Ya tienes una cuenta?{" "}
-            <Link href="/login" className="text-[#2ca05a] hover:underline">
+            <Link href="https://monitoreo-contenedores.vercel.app/auth/login" className="text-[#2ca05a] hover:underline">
               Inicia sesión
             </Link>
           </div>

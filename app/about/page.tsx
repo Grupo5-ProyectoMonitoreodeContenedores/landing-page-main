@@ -42,10 +42,10 @@ export default function AboutPage() {
           </nav>
           <div className="flex items-center gap-4">
             <Button variant="outline" className="hidden md:flex" asChild>
-              <Link href="/login">Iniciar sesión</Link>
+              <Link href="https://monitoreo-contenedores.vercel.app/auth/login">Iniciar sesión</Link>
             </Button>
             <Button className="bg-[#2ca05a] hover:bg-[#005c2f]" asChild>
-              <Link href="/register">Registrarse</Link>
+              <Link href="https://monitoreo-contenedores.vercel.app/auth/login">Registrarse</Link>
             </Button>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-bold">Colaboración</h3>
                 <p className="text-gray-500">
-                  Creemos en el poder de la colaboración entre ciudadanos, municipalidades y empresas.
+                  Creemos en el poder de la colaboración entre ciudadanos y municipalidades.
                 </p>
               </div>
               <div className="flex flex-col items-center text-center space-y-2 p-6 bg-white rounded-lg shadow-sm">

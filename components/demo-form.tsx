@@ -79,7 +79,7 @@ export function DemoForm() {
         <Label htmlFor="organization">Organización</Label>
         <Input
           id="organization"
-          placeholder="Nombre de tu municipalidad o empresa"
+          placeholder="Nombre de tu municipalidad"
           value={formData.organization}
           onChange={handleChange}
           required

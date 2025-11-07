@@ -37,10 +37,10 @@ export default function LandingPage() {
           </nav>
           <div className="flex items-center gap-4">
             <Button variant="outline" className="hidden md:flex" asChild>
-              <Link href="/login">Iniciar sesión</Link>
+              <Link href="https://monitoreo-contenedores.vercel.app/auth/login">Iniciar sesión</Link>
             </Button>
             <Button className="bg-[#2ca05a] hover:bg-[#005c2f]" asChild>
-              <Link href="/register">Registrarse</Link>
+              <Link href="https://monitoreo-contenedores.vercel.app/auth/login">Registrarse</Link>
             </Button>
           </div>
         </div>
