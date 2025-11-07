@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowLeft } from "lucide-react"
 
-export default function RegisterPage() { // Registro de usuario
+export default function RegisterPage() { // Registro de los usuarios
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-green-50 p-4">
       <div className="absolute left-4 top-4 sm:left-8 sm:top-8">
